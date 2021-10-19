@@ -1,10 +1,11 @@
 from typing import Optional
 
-from pytest import raises
 from hypothesis import given
-from hypothesis.strategies import integers, composite
+from hypothesis.strategies import composite, integers
+from pytest import raises
 
-from nametable_pil.validators import range_validator, InvalidRangeError, rgb_validator
+from nametable_pil.validators import (InvalidRangeError, range_validator,
+                                      rgb_validator)
 
 
 @composite

@@ -1,7 +1,7 @@
-from typing import Protocol
 from collections.abc import Iterable
+from typing import Protocol
 
-from attr import attrs, attrib
+from attr import attrib, attrs
 
 from nametable_pil.validators import color_validator
 
