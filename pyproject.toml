@@ -13,6 +13,7 @@ include = [
 python = ">=3.9.7,<3.11"
 Pillow = "^8.4.0"
 nametable = "^0.1.2"
+attrs = "^21.2.0"
 
 [tool.poetry.dev-dependencies]
 black = "^21.9b0"
