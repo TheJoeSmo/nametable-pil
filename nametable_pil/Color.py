@@ -12,8 +12,8 @@ class ColorProtocol(Protocol):
     """
 
     red: int
-    blue: int
     green: int
+    blue: int
     alpha: int
 
 
@@ -24,8 +24,8 @@ class Color:
     """
 
     red = attrib(type=int, validator=color_validator)
-    blue = attrib(type=int, validator=color_validator)
     green = attrib(type=int, validator=color_validator)
+    blue = attrib(type=int, validator=color_validator)
     alpha = attrib(type=int, validator=color_validator, default=0xFF)
 
 
