@@ -4,8 +4,7 @@ from hypothesis import given
 from hypothesis.strategies import composite, integers
 from pytest import raises
 
-from nametable_pil.validators import (InvalidRangeError, range_validator,
-                                      rgb_validator)
+from nametable_pil.validators import InvalidRangeError, range_validator, rgb_validator
 
 
 @composite
