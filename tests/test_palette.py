@@ -2,7 +2,6 @@ from itertools import chain
 
 from hypothesis import given
 from hypothesis.strategies import builds, composite, lists
-from nametable_pil.Color import Color
 from nametable_pil.Palette import Palette
 from PIL.ImagePalette import ImagePalette
 
