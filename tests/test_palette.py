@@ -2,9 +2,9 @@ from itertools import chain
 
 from hypothesis import given
 from hypothesis.strategies import builds, composite, lists
-from nametable_pil.Palette import Palette
 from PIL.ImagePalette import ImagePalette
 
+from nametable_pil.Palette import Palette
 from tests.test_color import rgb_color, rgba_color
 
 
